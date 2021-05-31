@@ -1,30 +1,3 @@
--#+STARTUP: overview
-#+LANGUAGE: en
-#+OPTIONS: num:nil
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[./img/screen.png]]
-* Installation
-** Quick Installation
-=git clone https://github.com/daedreth/UncleDavesEmacs ~/.emacs.d=
-
-Keep in mind that you should remove your own ~/.emacs and your ~/.emacs.d
-prior to cloning this configuration. The next time you launch Emacs (and I recommend
-launching emacs in the tty for the first time) it's going to download a good amount
-of packages and configure them for you, you might see warnings and errors being
-displayed as well, those are safe to ignore as long as you relaunch emacs and
-see none.
-
-The configuration, much like emacs is self documented, I highly recommend reading
-through my ramblings in their entirety.
-
-** Less Quick Installation
-You are free to pick out bits and pieces of this and apply them.
-So long as you have a working =use-package= configuration (take a peek at my init.el),
-there should be absolutely no issues.
-I highly encourage you to read up on the prose around the packages you are interested in,
-I do my absolute best to describe the configuration as well as I only can, this might help you on your emacs journey!
-Have some fun with it, add your own keybindings, change parameters, it's your editor in the end.
-
 * Dependencies for:
 ** EXWM
 Since we are going to use emacs as our window manager, it would be nice to have some external software to make our life easier.
